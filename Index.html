@@ -1,250 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>SchoolsInfo | Find Best Schools</title>
+<meta charset="UTF-8">
+<title>SchoolsInfo | Find Best Schools</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="cdns locall/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
 <nav class="navbar navbar-expand-lg navbar-dark header" style="border-radius:0 0 10px 10px;position: sticky;top: 0;z-index: 1000;">
-  <div class="container-fluid">
+<div class="container-fluid">
 
-    <a class="navbar-brand d-flex align-items-center" href="index.html">
-      <img src="assets/Schoollogo-removebg-preview.png" height="45" class="me-2">
-      <span>SchoolsInfo</span>
-    </a>
+<a class="navbar-brand d-flex align-items-center" href="index.html">
+<img src="assets/Schoollogo-removebg-preview.png" height="45" class="me-2">
+<span>SchoolsInfo</span>
+</a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+<span class="navbar-toggler-icon"></span>
+</button>
 
-    <div class="collapse navbar-collapse justify-content-end" id="mainNav">
-      <ul class="navbar-nav mb-2 mb-lg-0 d-flex align-items-center">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Schools</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Green Valley School</a></li>
-            <li><a class="dropdown-item" href="#">City Public School</a></li>
-            <li><a class="dropdown-item" href="#">Bright Future School</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="sitemap.html">Sitemap</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact Us</a>
-        </li>
-      </ul>
+<div class="collapse navbar-collapse justify-content-end" id="mainNav">
+<ul class="navbar-nav mb-2 mb-lg-0 d-flex align-items-center">
 
-      <form class="search-box ms-3">
-        <span class="search-icon" onclick="test()">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </span>
-        <input type="search" placeholder="Search schools">
-      </form>
-    </div>
+<li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
 
-  </div>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"> Popular Schools</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Green Valley School</a></li>
+<li><a class="dropdown-item" href="#">City Public School</a></li>
+<li><a class="dropdown-item" href="#">Bright Future School</a></li>
+</ul>
+</li>
+
+<li class="nav-item"><a class="nav-link" href="sitemap.html">Sitemap</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+
+</ul>
+
+<form class="search-box ms-3">
+<span class="search-icon" onclick="test()"><i class="fa-solid fa-magnifying-glass"></i></span>
+<input type="search" placeholder="Search schools">
+</form>
+
+</div>
+</div>
 </nav>
-  
 
 <section class="hero">
-  <div class="hero-text">
-    <h1 class="sn-pro">Find the Best School for Your Child</h1>
-    <a href="schools.html" class="btn">Explore Schools</a>
-  </div>
+<div class="hero-text">
+<h1 class="sn-pro">Find the Best School for Your Child</h1>
+<a href="schools.html" class="btn">Explore Schools</a>
+</div>
 
-  <div class="hero-image">
-    <img src="assets/school1building.jpg" alt="School">
-  </div>
 </section>
 
 <section class="intro">
-  <h2>About SchoolsInfo</h2>
-  <p>
-    SchoolsInfo is a web-based system designed to help parents and guardians
-    find suitable schools in the city. The platform provides information
-    about school facilities, locations and admission options without
-    visiting schools physically.
-  </p>
+<h2>About SchoolsInfo</h2>
+<p>
+SchoolsInfo is a web-based system designed to help parents and guardians
+find suitable schools in the city. The platform provides information
+about school facilities, locations and admission options without
+visiting schools physically.
+</p>
 </section>
-<section class="karousel">
 
+<section class="karousel">
 <div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="assets/carousel1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/carousel2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/carousel3.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/carousel4.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/carousel5.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/carousel6.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+<div class="carousel-inner">
+<div class="carousel-item active"><img src="assets/carousel1.jpg" class="d-block w-100"></div>
+<div class="carousel-item"><img src="assets/carousel2.jpg" class="d-block w-100"></div>
+<div class="carousel-item"><img src="assets/carousel3.jpg" class="d-block w-100"></div>
+<div class="carousel-item"><img src="assets/carousel4.jpg" class="d-block w-100"></div>
+<div class="carousel-item"><img src="assets/carousel5.jpg" class="d-block w-100"></div>
+<div class="carousel-item"><img src="assets/carousel6.jpg" class="d-block w-100"></div>
 </div>
 
-
-
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</button>
+</div>
 </section>
 
 <section class="detailbox">
-  <video style="border-radius: 20px 0px 0px 20px;" autoplay muted loop playsinline class="bg-video">
-    <source src="assets/King_s_College_School_Film_4K_720P.mp4" type="video/mp4">
-  </video>
-  <div class="overlay"></div>
+<video style="border-radius: 20px 0px 0px 20px;" autoplay muted loop playsinline class="bg-video">
+<source src="assets/King_s_College_School_Film_4K_720P.mp4" type="video/mp4">
+</video>
+<div class="overlay"></div>
 
-  <h2 class="whychoose">Why Choose SchoolsInfo?</h2>
+<h2 class="whychoose">Why Choose SchoolsInfo?</h2>
 
-  <div class="schoolbox">
-    <div class="schooldetails">
-      <h3>📍 Location Based Search</h3>
-      <p>Find schools using city location and nearby areas.</p>
-    </div>
-
-    <div class="schooldetails">
-      <h3>🏫 School Facilities</h3>
-      <p>Compare library, sports, boarding and canteen facilities.</p>
-    </div>
-
-    <div class="schooldetails">
-      <h3>📄 Verified Information</h3>
-      <p>Download detailed school information documents.</p>
-    </div>
-  </div>
+<div class="schoolbox">
+<div class="schooldetails"><h3><i class="fa-solid fa-location-dot"></i> Location Based Search</h3><p>Find schools using city location and nearby areas.</p></div>
+<div class="schooldetails"><h3><i class="fa-solid fa-school"></i> School Facilities</h3><p>Compare library, sports, boarding and canteen facilities.</p></div>
+<div class="schooldetails"><h3><i class="fa-solid fa-file"></i> Verified Information</h3><p>Download detailed school information documents.</p></div>
+</div>
 </section>
 
-
 <section class="schools-preview">
-  <h2>Popular Schools</h2>
-
-  <div class="school-cards">
-    <div class="school-card">
-      <img src="assets/school1building.jpg">
-      <h3>Green Valley School</h3>
-      <p>Library • Sports • Canteen</p>
-      <a href="school1.html">View Details</a>
-    </div>
-
-    <div class="school-card">
-      <img src="assets/School2Computerlab.jpg">
-      <h3>City Public School</h3>
-      <p>Computer Lab • Playground</p>
-      <a href="school2.html">View Details</a>
-    </div>
-
-    <div class="school-card">
-      <img src="assets/School3Bulding.jpg">
-      <h3>Bright Future School</h3>
-      <p>Boarding • Library • Sports</p>
-      <a href="school3.html">View Details</a>
-    </div>
-  </div>
+<h2>Popular Schools</h2>
+<div class="school-cards">
+<div class="school-card"><img src="assets/school1building.jpg"><h3>Green Valley School</h3><p>Library • Sports • Canteen</p><a href="school1.html">View Details</a></div>
+<div class="school-card"><img src="assets/School2Computerlab.jpg"><h3>City Public School</h3><p>Computer Lab • Playground</p><a href="school2.html">View Details</a></div>
+<div class="school-card"><img src="assets/School3Bulding.jpg"><h3>Bright Future School</h3><p>Boarding • Library • Sports</p><a href="school3.html">View Details</a></div>
+</div>
 </section>
 
 <section class="map-info">
-  <h2>Find Schools Near You</h2>
-  <p>
-    SchoolsInfo uses HTML5 Geolocation and Google Maps API
-    to display the location of schools across the city.
-  </p>
-  <a href="sitemap.html" class="btn">View School Locations</a>
+<h2>Find Schools Near You</h2>
+<p>SchoolsInfo uses HTML5 Geolocation and Google Maps API to display the location of schools across the city.</p>
+<a href="sitemap.html" class="btn">View School Locations</a>
 </section>
 
 <div id="cookieOverlay" class="cookie-overlay">
-  <div class="cookie-box">
-    <h2>We Use Cookies</h2>
-    <p>
-      This website uses cookies to improve user experience and provide
-      accurate school information. By clicking accept, you agree to our
-      use of cookies.
-    </p>
-    <button id="acceptCookies">Accept Cookies</button>
-  </div>
+<div class="cookie-box">
+<h2>We Use Cookies</h2>
+<p>
+This website uses cookies to improve user experience and provide
+accurate school information. By clicking accept, you agree to our
+use of cookies.
+</p>
+<button id="acceptCookies">Accept Cookies</button>
+</div>
 </div>
 
-
 <footer class="big-footer">
-  <div class="container">
-    <div class="footer-content">
+<div class="container">
+<div class="footer-content">
 
-      <div class="footer-column">
-        <h3>SchoolsInfo</h3>
-        <p>Your guide to find the best schools in the city easily and quickly.</p>
-      </div>
+<div class="footer-column">
+<h3>SchoolsInfo</h3>
+<p>Your guide to find the best schools in the city easily and quickly.</p>
+</div>
 
-      <div class="footer-column">
-        <h3>Quick Links</h3>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="schools.html">Schools</a></li>
-          <li><a href="map.html">Areas</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
+<div class="footer-column">
+<h3>Quick Links</h3>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="schools.html">Schools</a></li>
+<li><a href="map.html">Areas</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
 
-      <div class="footer-column">
-        <h3>Policies</h3>
-        <ul>
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Cookies Policy</a></li>
-        </ul>
-      </div>
+<div class="footer-column">
+<h3>Policies</h3>
+<ul>
+<li><a href="termsconditions.html">Terms & Conditions</a></li>
+<li><a href="privacy.html">Privacy Policy</a></li>
+<li><a href="cookies.html">Cookies Policy</a></li>
+</ul>
+</div>
 
-      <div class="footer-column">
-        <h3>Follow Us</h3>
-        <div class="social-icons">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
-      </div>
+<div class="footer-column">
+<h3>Follow Us</h3>
+<div class="social-icons">
+<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+<a href="#"><i class="fa-brands fa-twitter"></i></a>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+</div>
+</div>
 
-    </div>
-    <hr>
-    <p class="footer-bottom">© 2026 SchoolsInfo | All Rights Reserved</p>
-  </div>
+</div>
+<hr>
+<p class="footer-bottom">© 2026 SchoolsInfo | All Rights Reserved</p>
+</div>
 </footer>
 
-
-<script src="cdns locall/bootstrap.bundle.min.js">
-  function test(){
-    alert("working")
-  }
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+function test(){alert("working")}
 </script>
 <script src="index.js"></script>
 
