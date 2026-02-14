@@ -51,11 +51,12 @@ body {
   color: #ffffff !important;
 }
 
-.search-box {
+.search-form {
   position: relative;
+  display: inline-block;
 }
 
-.search-box input {
+.search-input {
   padding: 8px 12px 8px 40px;
   border-radius: 25px;
   border: none;
@@ -67,8 +68,13 @@ body {
   left: 14px;
   top: 50%;
   transform: translateY(-50%);
-  color: #666;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #555;
 }
+
+
 .sn-pro {
   color:white;
   font-family: "SN Pro", sans-serif;
