@@ -3,20 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Terms & Conditions | SchoolsInfo</title>
+<title>Areas | SchoolsInfo</title>
   <link rel="icon" type="image/png" href="/assets/Schoollogo-removebg-preview.png">
-
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="termsconditions.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="areas.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
- <nav class="navbar navbar-expand-lg navbar-dark topbar" style=" position: -webkit-sticky;position: sticky;top: 0;padding: 10px; z-index: 100;">
+<nav class="navbar navbar-expand-lg navbar-dark topbar">
   <div class="container-fluid">
 
     <a class="navbar-brand d-flex align-items-center" href="index.html">
@@ -36,17 +34,17 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link active" href="about.html">About</a>
+          <a class="nav-link" href="about.html">About</a>
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
            Popular Schools
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="green-valley.html">Green Valley School</a></li>
             <li><a class="dropdown-item" href="city-public-school.html">City Public School</a></li>
-            <li><a class="dropdown-item" href="Bright-future-school.html">Bright Future School</a></li>
+            <li><a class="dropdown-item" href="bright-future-school.html">Bright Future School</a></li>
           </ul>
         </li>
 
@@ -59,8 +57,8 @@
         </li>
 
       </ul>
-       <form class="search-box ms-lg-3">
-        <span class="search-icon" onclick="test()">
+      <form class="search-box ms-lg-3">
+        <span class="search-icon">
           <i class="fa-solid fa-magnifying-glass"></i>
         </span>
         <input type="search" placeholder="Search schools">
@@ -70,45 +68,57 @@
   </div>
 </nav>
 
-<section class="terms-hero">
-  <div class="container">
-    <h1>Terms & Conditions</h1>
-    <p>Please read these terms carefully before using SchoolsInfo.</p>
+<section class="areas-hero">
+  <div class="container text-center">
+    <h1>Explore Areas</h1>
+    <p>Find schools in your preferred area quickly and easily.</p>
   </div>
 </section>
 
-<section class="terms-content container">
+<section class="areas-content container">
+  <div class="row g-4">
 
-  <div class="terms-box">
-    <h3>1. Acceptance of Terms</h3>
-    <p>By accessing and using SchoolsInfo, you agree to comply with these Terms and Conditions. If you do not agree, please do not use our website.</p>
+    <div class="col-md-6 col-lg-4">
+      <div class="area-card">
+        <img src="assets/downtownschool.jfif" class="img-fluid rounded" alt="Downtown">
+        <h4>Downtown</h4>
+        <p>Top schools located in the heart of the city.</p>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="area-card">
+        <img src="assets/uptownschool.jfif" class="img-fluid rounded" alt="Uptown">
+        <h4>Uptown</h4>
+        <p>Modern schools with excellent facilities and extracurriculars.</p>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="area-card">
+        <img src="assets/suburbsschool.jfif" class="img-fluid rounded" alt="Suburbs">
+        <h4>Suburbs</h4>
+        <p>Peaceful neighborhoods with reputed schools for families.</p>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="area-card">
+        <img src="assets/eastsideschool.jfif" class="img-fluid rounded" alt="Eastside">
+        <h4>Eastside</h4>
+        <p>Schools with strong academic and sports programs.</p>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <div class="area-card">
+        <img src="assets/westendschool.jfif" class="img-fluid rounded" alt="Westend">
+        <h4>Westend</h4>
+        <p>Affordable and quality schools in convenient locations.</p>
+      </div>
+    </div>
+
   </div>
-
-  <div class="terms-box">
-    <h3>2. Information Accuracy</h3>
-    <p>We strive to provide accurate school information. However, SchoolsInfo does not guarantee the completeness or reliability of any content displayed.</p>
-  </div>
-
-  <div class="terms-box">
-    <h3>3. Use of Website</h3>
-    <p>You agree not to misuse the website, attempt unauthorized access, or disrupt services provided by SchoolsInfo.</p>
-  </div>
-
-  <div class="terms-box">
-    <h3>4. Intellectual Property</h3>
-    <p>All content including text, images, logos, and design belongs to SchoolsInfo and may not be copied or distributed without permission.</p>
-  </div>
-
-  <div class="terms-box">
-    <h3>5. Privacy & Cookies</h3>
-    <p>By using this website, you agree to our privacy policy and cookie usage for improving user experience.</p>
-  </div>
-
-  <div class="terms-box">
-    <h3>6. Changes to Terms</h3>
-    <p>SchoolsInfo reserves the right to update these terms at any time. Continued use of the website means you accept those changes.</p>
-  </div>
-
 </section>
 
 <footer class="big-footer">
@@ -126,7 +136,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="schools.html">Schools</a></li>
-          <li><a href="map.html">Areas</a></li>
+          <li><a href="areas.html">Areas</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
@@ -134,7 +144,7 @@
       <div class="footer-column">
         <h3>Policies</h3>
         <ul>
-          <li><a href="termsconditions.html">Terms & Conditions</a></li>
+          <li><a href="terms.html">Terms & Conditions</a></li>
           <li><a href="privacy.html">Privacy Policy</a></li>
           <li><a href="cookies.html">Cookies Policy</a></li>
         </ul>
